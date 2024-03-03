@@ -20,10 +20,16 @@ JSON is a method for formatting Data.  It can be utilized with many programmming
 
 <b>Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.</b>
 
+An example of improving functionality through refactoring code was when we replaced some static HTML pages with templates using Handlebars.  This enables the structure of a page to be reused while also being able to change the data displayed on said page.  A
+
 # Testing
 
 <b>Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.</b>
 
+HTTP methods are a diferent type of way the client can interact with the server.  Some of the most utilized methods are GET, POST, PUT, and DELETE.  These API endpoints are what enables the client to communicate with the server without needing the kind of access we might have at the back end.  Authenticating the specific login credentials for the end user in this scenario allows us to give that hyper specific control over to the end user and giving them a valid JWT so that they can reach these endpoints that will only work with any relevant information regarding them.
+
 # Reflection
 
 <b>How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?</b>
+
+This course has shown me something important!  It's shown me that I may want to pursue a career in full stack development.  While I struggled due to illness this term, I still very much enjoyed learning these things and hope to mvoe forward into Full Stack II to learn more and solve any pitfalls I had this term as well!  I've also learned far more about Javascript, Node, Express, Handlebars, and Postman which will come in great use going forward.
