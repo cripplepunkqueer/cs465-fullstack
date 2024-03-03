@@ -1,18 +1,29 @@
-# cs465-fullstack
 # Architecture
 
-Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
-Why did the backend use a NoSQL MongoDB database?
+<b>Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).</b>
 
-#Functionality
+The site used Express, HTML, and JavaScript to display the pages.  Routes and controllers were created using Express and JavaScript to handle requests from the browser for a page.  Express then either retrieves the static HTML page or generates the requested page using handlebars templates and data populated from the database.  All of these tools work together to handle server requests and send that result to the front end.
 
-How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
-Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
+The Angular part of the project worked different.  Upon the first load of the page, the entire single page application (SPA) gets sent to the end user.  Once it is there, all of the page rending and code execution takes place in the browser on the client side of things.
 
-#Testing
+With Express, many calls get made to the server.  With a SPA, the initial load will take longer to get all the code from the backend but after that no additional calls are required for navigating pages within the SPA.
 
-Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+<b>Why did the backend use a NoSQL MongoDB database?</b>
 
-#Reflection
+MongoDB scales well and queries fast.  The documents that are stored in MongoDB align well with JSON format and that makes it a good match for front end applications.
 
-How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+# Functionality
+
+<b>How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?</b>
+
+JSON is a method for formatting Data.  It can be utilized with many programmming language.  JavaScript is a programming language that uses JSON to define its objects.  The front end and back end are connected through the use of JSON and APIs.  RESTful APS use JSON to field requests and send responses.
+
+<b>Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.</b>
+
+# Testing
+
+<b>Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.</b>
+
+# Reflection
+
+<b>How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?</b>
